@@ -1,0 +1,48 @@
+.products {
+  width: 90%; /* Reduce width for smaller size */
+  margin: 0 auto; /* Center products */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Adjust grid columns */
+  gap: 30px; /* Add larger gap between products */
+  justify-items: center; /* Center items horizontally */
+}
+
+.product {
+  border-radius: 15px;
+  width: 100%;
+  max-width: 250px; /* Limit maximum width */
+  height: auto; /* Allow height to adjust based on content */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Distribute space between image and description */
+  align-items: center;
+  padding: 20px; /* Add padding for better spacing */
+  background-color: #fff; /* Set background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.product img {
+  max-width: 100%; /* Ensure image fits inside container */
+  margin-bottom: 20px; /* Add space below image */
+}
+
+.product .description {
+  text-align: center;
+  color: #333; /* Change text color */
+}
+
+.addToCartBttn {
+  background-color: transparent;
+  border: 2px solid #333333; /* Change border color */
+  min-width: 100px;
+  padding: 8px 20px; /* Adjust padding */
+  border-radius: 15px;
+  color: #333; /* Change text color */
+  background-color: #FFC6AC ;
+}
+
+.addToCartBttn:hover {
+  background-color: #333; /* Change background color on hover */
+  color:  #9E9FA5 ; /* Change text color on hover */
+  cursor: pointer;
+}

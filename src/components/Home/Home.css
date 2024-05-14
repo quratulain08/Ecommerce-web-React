@@ -1,0 +1,68 @@
+.Home {
+    height: 85vh;
+    background: linear-gradient(180deg,#FFC6AC , #9E9FA5 30%);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Home-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    gap: 20px;
+    padding-left: 180px;
+    align-items: center;
+    line-height: 1.1;
+}
+
+.Home-left h2 {
+    color: #283618;
+    font-size: 26px;
+    font-weight: 600;
+}
+
+.Home-left p {
+    color: #283618;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.Home-latest-btn {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 310px;
+    height: 70px;
+    border-radius: 75px;
+    background: #283618;
+    color: #fef9e0;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.Home-latest-btn img {
+    height: 22px;
+    width: 22px;
+    color: #fef9e0;
+}
+
+.Home-right {
+    /* Add necessary styling for centering */
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .Home-right img {
+    border-radius: 50%; /* Make the image round */
+    width: 70%; /* Set the width of the image */
+    height: 60%; /* Set the height of the image */
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+  
